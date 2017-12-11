@@ -1,0 +1,58 @@
+# ignore YeoPress configuration file since it contains password information
+.yeopress
+
+# As Yeoman assumes the usage of Bower and Grunt, ignore the below:
+bower_components
+node_modules
+npm-debug.log
+
+# Ignore automatically generated cruft
+*.log
+.sass-cache
+
+# Operating system files
+.Spotlight-V100
+.Trashes
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+.htaccess
+.gitmodules
+.tmp
+/public
+.env*
+
+# Wordpress
+wordpress/.htaccess
+wordpress/api
+wordpress/wp-content/themes/**/vendor
+wordpress/wp-config.php
+wordpress/wp-content/.DS_Store
+wordpress/wp-content/uploads
+wordpress/wp-content/cache
+wordpress/wp-content/advanced-cache.php
+wordpress/wp-content/wp-cache-config.php
+wordpress/wp-content/themes/twenty*
+wordpress/wp-content/tablepress-*.css
+wordpress/wp-content/backup-db/
+wordpress/wp-content/backups/
+wordpress/wp-content/blogs.dir/
+wordpress/wp-content/upgrade/
+wordpress/sitemap.xml
+wordpress/sitemap.xml.gz
+wordpress/wp-content/w3tc-config/master.php
+
+sitemap.xml
+*.sublime-workspace
+
+# Webcomponents
+webcomponents/dist
+
+# Specific to PlayerProfile server
+/fant*
+default.html
+.vagrant
+error_log
+wp-config.php
+env
